@@ -1,0 +1,10 @@
+button {
+    color:black;
+}
+
+button:hover {
+    background-color:orange;
+    font-size:.3em;
+    font-weight:bold;
+    border:1px solid black;
+}
