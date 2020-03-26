@@ -18,6 +18,8 @@ button {
     color:white;
     font-family: 'PT Mono', monospace;
     padding:5px;
+    border:1px black solid;
+    border-radius:10px;
 }
 
 .navbutton {
@@ -30,6 +32,7 @@ button {
     margin-bottom:5px;
     padding:10px;
     border:solid 2px black;
+    border-radius:5px;
 }
 
 li {

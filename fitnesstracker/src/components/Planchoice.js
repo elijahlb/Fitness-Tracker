@@ -1,6 +1,12 @@
 import React from 'react';
 import "../components/styles/nav.css"
 
+
+function addExercise () {
+  
+}
+
+
 function Planchoice(props) {
   return (
     <div className="container">
