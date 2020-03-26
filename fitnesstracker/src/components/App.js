@@ -28,6 +28,7 @@ class App extends Component {
           removeExercises={this.removeExercises}
           key={exercises.id}
           name={exercises.name}
+          group={exercises.group}
           instructions={exercises.instructions}
           />
         

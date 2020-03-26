@@ -1,22 +1,104 @@
 [
     {
       "id": 1,
+      "group": "Legs",
       "name": "Squats",
       "instructions": "Stand tall with your feet hip distance apart. Your hips, knees, and toes should all be facing forward. Bend your knees and extend your buttocks backward as if you are going to sit back into a chair. Make sure that you keep your knees behind your toes and your weight in your heels. Rise back up and repeat."
     },
     {
       "id": 2,
       "name": "Bench Press",
+      "group": "Chest",
       "instructions": "Lie on the bench with your eyes under the bar. Grab the bar with a medium grip-width (thumbs around the bar!). Unrack the bar by straightening your arms. Lower the bar to your mid-chest. Press the bar back up until your arms are straight"
     },
     {
       "id": 3,
       "name": "Tricep Extension",
+      "group": "Arms",
       "instructions": "Stand with feet hip-width apart, holding one dumbbell in your hands. Bring the weight overhead, extending your arms straight so the dumbbell is above your head. Keeping everything from your shoulders to elbows still, slowly bend your elbows, lowering the weight behind your head until your arms are just lower than 90 degrees. Your elbows should point forward, not out to the side. Pause, and raise back to straight."
     },
     {
       "id": 4,
       "name": "Bicep Curl",
+      "group": "Arms",
       "instructions": "Stand up straight with your feet shoulder width apart, knees slightly bent, core muscles braced, shoulders back and down. Hold the dumbbells down by your sides, palms facing in (towards your body). Your elbows should stay fixed to your side throughout. Focus on your biceps and lift the dumbbells by bending at your elbow. As you lift, turn your palms to face up. Then slowly bring the dumbbells back down to the starting position, keeping full control of the movement."
+    },
+    {
+      "id": 5,
+      "name": "Military Press",
+      "group": "Shoulders / Chest / Arms",
+      "instructions": "Grasp a barbell with hands wider than shoulder width apart and your palms facing down. Keep your feet shoulder width apart and your knees slightly bent. Raise the barbell to your chest and then overhead and slightly forward for your starting position. Inhale as you slowly lower the bar back to your chest. Exhale as you slowly raise the bar back overhead to the starting position. Repeat for a complete set."
+    },
+    {
+      "id": 6,
+      "name": "Russian Twist",
+      "group": "Abdominals",
+      "instructions": "Sit on your sit bones as you lift your feet from the floor, keeping your knees bent. Elongate and straighten your spine at a 45-degree angle from the floor, creating a V shape with your torso and thighs. Reach your arms straight out in front, interlacing your fingers or clasping your hands together. Use your abdominals to twist to the right, then back to center, and then to the left. This is 1 repetition. Do 2 to 3 sets of 8 to 16 repetitions."
+    },
+    {
+      "id": 7,
+      "name": "Sit Up",
+      "group": "Abdominals",
+      "instructions": "Lie on your back on the floor or a bench. Bend your knees and hook your feet under a secure brace or overhang. If you don't have a brace to hook your feet under, ask a partner to hold your feet while you do sit-ups. Put your hands on the sides of or behind your neck. Bend your hips and waist to raise your body off the ground or bench. Lower your body back to the starting position."
+    },
+    {
+      "id": 8,
+      "name": "Deadlift",
+      "group": "Legs",
+      "instructions": "Stand with your mid-foot under the barbell. Bend over and grab the bar with a shoulder-width grip. Bend your knees until your shins touch the bar. Lift your chest up and straighten your lower back. Take a big breath, hold it, and stand up with the weight"
+    },
+    {
+      "id": 9,
+      "name": "Incline Bench Press",
+      "group": "Chest",
+      "instructions": "Holding a dumbbell in each hand, sit on a bench inclined at 45 degrees and rest one dumbbell on each knee. As you lie back on the bench, kick the dumbbells up, one at a time, into place. Position the dumbbells to the sides of your chest, with your elbows bent and tucked in to your torso a little. Straighten your wrists. Spread your legs and place your feet flat on the floor. Exhale as you press the dumbbells upward and inward until your arms are almost fully extended and the dumbbells nearly touch. Hold for a count of two and squeeze your chest. Inhale as you lower the dumbbells back to the starting position, or until you feel a mild stretch in your chest. Repeat."
+    },
+    {
+      "id": 10,
+      "name": "Lat Pull Down",
+      "group": "Back",
+      "instructions": "Attach a wide grip handle to the lat pulldown machine and assume a seated position. Grasp the handle with a pronated grip (double overhand) and initiate the movement by depressing the shoulder blade and then flexing the elbow while extending the shoulder. Pull the handle towards your body until the elbows are in line with your torso and then slowly lower the handle back to the starting position under control. Repeat for the desired number of repetitions."
+    },
+    {
+      "id": 11,
+      "name": "Wide Grip Cable Row",
+      "group": "Back",
+      "instructions": "Attach a straight bar to a low cable pulley. Grasp the bar using a shoulder-width or wider overhand grip. Stand close to the pulley with your body upright, your shoulders pulled back, and your chest pushed out. Exhale as you pull the bar up the front of your body until it reaches the level of your lower or middle chest. Do not pull the bar up any higher. Hold for a count of two. Inhale as you lower the bar to the starting position. Repeat."
+    },
+    {
+      "id": 12,
+      "name": "Lateral Raises",
+      "group": "Shoulders",
+      "instructions": "The dumbbell lateral raise is a good exercise for building width in your upper body which gives you the V shape. Grab a set of dumbbells and stand straight up with the dumbbells at your sides. Your palms should be facing your body. You should be holding the dumbbells slightly off your body, as this keeps the tension on the side delts. This is your starting position for the exercise. To execute, slowly raise the dumbbells up to around shoulder height. It's important that you do not let your wrists go above your elbows while raising the weight, as this will take the work off the side delts and put it on the front delts. Pause at the top of the movement, and then slowly lower the weight back to the starting position. Do not let the dumbbells touch your body, and then raise them for the next rep."
+    },
+    {
+      "id": 13,
+      "name": "Face Pulls",
+      "group": "Shoulders",
+      "instructions": "Stand in front of a cable station with a rope attached to the high pulley (about head height). Grab the rope so that your palms are facing inward toward each other and your thumbs are in line with your chin. Back up a few feet so that your arms are straight out in front of you and you feel tension in your arms. Next, begin exercise by flaring elbows out and bending your arms while pulling the rope back toward your eyes with each hand on either side of your head. The ending position should look like you are flexing your biceps with your knuckles facing your ears. Reverse movement and repeat as necessary."
+    },
+    {
+      "id": 14,
+      "name": "Hammer Curl",
+      "group": "Arms",
+      "instructions": "Stand up straight with your torso upright. Hold a dumbbell in each hand at arms-length. Your elbows should be close to your torso. The palms of your hands should be facing your torso. This is the starting position for the exercise. Curl the weight forward while contracting your biceps. Your upper arm should remain stationary. Continue to lift the weight until your biceps are fully contracted and the dumbbell is at shoulder level. Hold the contraction for a moment as you squeeze your biceps. Inhale and slowly start to bring the dumbbells back to the starting position. Repeat for the desired number of reps."
+    },
+    {
+      "id": 15,
+      "name": "Bodyweight Dips",
+      "group": "Chest / Arms",
+      "instructions": "Grab the parallel bars and jump up, straighten your arms. Lower your body by bending your arms while leaning forward. Dip down until your shoulders are below your elbows. Lift your body up by straightening your arms. Lock your elbows at the top."
+    },
+    {
+      "id": 16,
+      "name": "Stair Calf Raises",
+      "group": "Legs",
+      "instructions": "Step at edge of the stairs with only 1/4th of the front of your foot actually on the stairs. Your heels should be resting and hanging down off the stairs. Drive your toes into the stair until you reach as high as you are able. Make sure to keep an upright posture and don’t lean forward, backwards, or to the side. Be sure to keep legs and feet straight throughout movement. Don’t point toes out or in. Slowly lower your body in a straight fashion until you cannot lower any further. Be sure not to lean forward or backward."
+    },
+    {
+      "id": 17,
+      "name": "Walking Lunges",
+      "group": "Legs",
+      "instructions": "Keep your upper body straight, with your shoulders back and relaxed and chin up (pick a point to stare at in front of you so you don't keep looking down). Always engage your core. Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle. Make sure your front knee is directly above your ankle, not pushed out too far, and make sure your other knee doesn't touch the floor. Keep the weight in your heels as you push back up to the starting position."
     }
   ]

@@ -10,7 +10,10 @@ function Planchoice(props) {
       </div>
       <div className="content">
           <li>
-            <strong className="lift">Lift:</strong> <strong className="lift">{props.name}</strong>
+            <strong className="lift">{props.name}</strong>
+          </li>
+          <li>
+            <strong className="lift">Muscle Group: {props.group}</strong>
           </li>
           <li>
             <strong className="lift">Instructions: </strong> {props.instructions}
