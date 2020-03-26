@@ -2,20 +2,20 @@ import React, {Component} from 'react';
 import Nav from './Nav';
 import Planchoice from './Planchoice';
 import exercises from "./exercises.json";
-import Notes from "./Notes";
+
+
 
 class App extends Component {
 
 
     state = {
-      exercises 
+      exercises,
+     
     };
-
-
 
     render() {
       return (
-
+ 
         <div className="container">
         <Nav />
         {this.state.exercises.map(exercises => (
@@ -30,9 +30,6 @@ class App extends Component {
           instructions={exercises.instructions}
           />
           </div>
-
-          
-          <Notes />
           </div>
         
         ))}

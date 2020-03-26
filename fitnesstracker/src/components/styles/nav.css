@@ -9,8 +9,24 @@
 }
 
 .lift {
-    color:black;
+    color:rgb(255, 255, 255);
     font-size:1.1em;
+    margin:5px;
+    font-family: 'PT Mono', monospace;
+}
+
+.lifttwo {
+    border: 1px solid white;
+    color: white;
+    padding:2px; 
+    font-size:2em;
+    font-family: 'PT Mono', monospace;
+}
+
+.lifttwo:hover {
+    border: 1px solid black;
+    color: black;
+    background-color:white;
 }
 
 button {
@@ -22,19 +38,38 @@ button {
     border-radius:10px;
 }
 
+.add:hover {
+    background-color:white;
+    color:black;
+    border:black solid 1px;;
+}
+
 .navbutton {
     font-size:.25em;
+    border: 1px solid white;
+}
+
+.navbutton:hover{
+    background-color:white;
+    color:black;
+    font-weight:bold;
+    border:none;
 }
 
 .content {
-    background-color:#767976;
+    background-color:#384d38;
     color: white;
-    margin-bottom:5px;
+    margin-bottom:10px;
     padding:10px;
-    border:solid 2px black;
+    border:solid 5px black;
     border-radius:5px;
+    font-family: 'PT Mono', monospace;
 }
 
 li {
     list-style-type: none;
+}
+
+body {
+    background-image: url("/fitnesstracker/public/images/rockbackground.jpg");
 }
