@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Squats",
+      "instructions": "Stand tall with your feet hip distance apart. Your hips, knees, and toes should all be facing forward. Bend your knees and extend your buttocks backward as if you are going to sit back into a chair. Make sure that you keep your knees behind your toes and your weight in your heels. Rise back up and repeat."
+    },
+    {
+      "id": 2,
+      "name": "Bench Press",
+      "instructions": "Lie on the bench with your eyes under the bar. Grab the bar with a medium grip-width (thumbs around the bar!). Unrack the bar by straightening your arms. Lower the bar to your mid-chest. Press the bar back up until your arms are straight"
+    },
+    {
+      "id": 3,
+      "name": "Tricep Extension",
+      "instructions": "Stand with feet hip-width apart, holding one dumbbell in your hands. Bring the weight overhead, extending your arms straight so the dumbbell is above your head. Keeping everything from your shoulders to elbows still, slowly bend your elbows, lowering the weight behind your head until your arms are just lower than 90 degrees. Your elbows should point forward, not out to the side. Pause, and raise back to straight."
+    },
+    {
+      "id": 4,
+      "name": "Bicep Curl",
+      "instructions": "Stand up straight with your feet shoulder width apart, knees slightly bent, core muscles braced, shoulders back and down. Hold the dumbbells down by your sides, palms facing in (towards your body). Your elbows should stay fixed to your side throughout. Focus on your biceps and lift the dumbbells by bending at your elbow. As you lift, turn your palms to face up. Then slowly bring the dumbbells back down to the starting position, keeping full control of the movement."
+    }
+  ]

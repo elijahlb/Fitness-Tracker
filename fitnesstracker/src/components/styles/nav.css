@@ -4,6 +4,30 @@
     font-weight:bold;
     font-size:4em;
     background-color:#384d38;
-    color:rgb(202, 201, 201);
+    color:rgb(224, 167, 167);
     border-radius:5px;
+}
+
+.lift {
+    color:black;
+    font-size:1.1em;
+}
+
+button {
+    background-color:#384d38;
+    color:white;
+    font-family: 'PT Mono', monospace;
+    padding:5px;
+}
+
+.content {
+    background-color:#767976;
+    color: white;
+    margin-bottom:5px;
+    padding:10px;
+    border:solid 2px black;
+}
+
+li {
+    list-style-type: none;
 }

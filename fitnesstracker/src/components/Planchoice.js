@@ -1,14 +1,26 @@
 import React from 'react';
-import "../components/styles/planchoice.css"
+import "../components/styles/nav.css"
 
-function Planchoice() {
+function Planchoice(props) {
   return (
     <div className="container">
-     <div className="text-center heading">
-     <button type="button" class="btn btn-secondary">New</button>
-     <br />
-     <button type="button" class="btn btn-secondary">Continue</button>
-     </div>
+    <div className="card text-center">
+      <div className="img-container">
+        <img src={props.image} />
+      </div>
+      <div className="content">
+          <li>
+            <strong className="lift">Lift:</strong> <strong className="lift">{props.name}</strong>
+          </li>
+          <li>
+            <strong className="lift">Instructions: </strong> {props.instructions}
+          </li>
+          <br />
+      </div>
+      <button onClick={() => props.addExercise(props.id)} className="add">
+        Add to plan
+      </button>
+    </div>
     </div>
   );
 }
