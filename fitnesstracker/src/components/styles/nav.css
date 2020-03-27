@@ -49,6 +49,22 @@ button {
     border: 1px solid white;
 }
 
+.label1 {
+    margin-right:100px;
+}
+.label2 {
+    margin-right:175px;
+}
+.label3 {
+    margin-right:175px;
+}
+.label4 {
+    margin-right:50px;
+}
+.label5 {
+    margin-right:100px;
+}
+
 .navbutton:hover{
     background-color:white;
     color:black;
@@ -64,6 +80,17 @@ button {
     border:solid 5px black;
     border-radius:5px;
     font-family: 'PT Mono', monospace;
+}
+
+hr {
+   border:none;
+   height:5px;
+   background-color: #384d38;
+   margin-top:30px;
+}
+
+input {
+    color:black;
 }
 
 li {
