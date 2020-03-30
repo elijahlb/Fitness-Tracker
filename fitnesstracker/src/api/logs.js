@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const LogEntry = require('../../models/LogEntry');
+const LogEntry = require('../models/LogEntry');
 
 const router = Router();
 
@@ -15,7 +15,13 @@ router.get('/', async (req, res, next) => {
 
 router.post('/', async (req, res, next) => {
     try {
-    const logEntry = new LogEntry(req.body);
+    const logEntry = new LogEntry({
+        exercise: req.body.exercise,
+        reps: req.body.reps,
+        sets: req.body.sets,
+        duration: req.body.duration,
+        notes: req.body.notes
+    });
     const createdEntry = await logEntry.save();
     res.json(createdEntry);
     } catch(error) {

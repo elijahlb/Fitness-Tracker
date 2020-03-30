@@ -1,20 +1,14 @@
 const mongoose = require("mongoose");
-
 const { Schema } = mongoose;
 
-const logEntrySchema = new Schema({
-    Exercise: {
+const logEntrySchema = new Schema({   
         type: String,
-        required: true,
-    },
-    Notes: {
-        Reps: Number,
-        Sets: Number,
-        Duration: Number,
-        GeneralNotes: String,
-    }, 
+        reps: Number,
+        sets: Number,
+        duration: Number,
+        notes: String,  
 });
 
-const LogEntry = mongoose.model('LogEntry', logEntrySchema);
+ mongoose.model('LogEntry', logEntrySchema);
 
 module.exports = LogEntry;

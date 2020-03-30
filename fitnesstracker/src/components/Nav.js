@@ -6,7 +6,6 @@ function Nav() {
     <div className="container">
      <div className="jumbotron text-center heading">
            <span>FITNESS TRACKER</span> <br />
-            <button className="navbutton">My Plan</button>
      </div>
     </div>
   );

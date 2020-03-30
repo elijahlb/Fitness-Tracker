@@ -10,11 +10,11 @@ const errorHandler = (error, req, res, next) => {
     res.json({
         message: error.message,
         // use error.stack only in development to show exactly where error exists 
-        stack: process.env.NODE_ENV === 'production' ? '🍤' : error.stack, 
+        stack: process.env.NODE_ENV === 'production' ? '🍤' : error.stack
     });
 };
 
 module.exports = {
     notFound, 
-    errorHandler,
+    errorHandler
 };

@@ -6,6 +6,7 @@
     background-color:#384d38;
     color:white;
     border-radius:5px;
+    border: solid black 5px;
 }
 
 .lift {
@@ -70,6 +71,11 @@ button {
     color:black;
     font-weight:bold;
     border:none;
+}
+
+.labelz {
+    width:50%;
+
 }
 
 .content {

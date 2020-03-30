@@ -1,1 +1,4 @@
 # Fitness-Tracker
+
+Mongodb needs: 
+
