@@ -9,9 +9,27 @@ import axios from 'axios';
 
 class LogEntryForm extends Component {
 
+    state = {
+        exercise: "",
+        reps: "",
+        sets: "",
+        duration: "",
+        notes: ""
+    }
+
+    handleChange = event => {
+        this.setState({
+            exercise: event.target.value,
+            reps: event.taget.value,
+            sets: event.target.value,
+            duration: event.target.value,
+            notes: event.target.value
+        })
+    }
+
     handleSubmit() {
-        axios
-            .post('/api/excercise')
+        axios.post('http://localhost:1337/api/excercise', {
+        })
             .then(res => console.log(res))
             .catch(err => console.log(err));
     }
@@ -22,7 +40,7 @@ render() {
 
         <div className="container">
             <div className="col-md-6">
-                <form className="content">
+                <form className="content" onSubmit={this.handleSubmit}>
                     <label htmlFor="exercise" className="label1">Exercise Type: </label>
                     <input type="text" name="exercise" /><br />
                     <label htmlFor="reps" className="label2">Reps: </label>
@@ -34,7 +52,7 @@ render() {
                     <label htmlFor="notes" className="label5">General Notes: </label>
                     <input type="text" name="notes" />
                 </form>
-                <button className="add text-center" onClick={this.handleSubmit}>Submit</button>
+                <button className="add text-center" type="submit">Submit</button>
             </div>
         </div>
     )
