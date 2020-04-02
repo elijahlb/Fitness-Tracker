@@ -31,7 +31,7 @@
 }
 
 button {
-    background-color:#ca7459;
+    background-color:rgb(81, 153, 137);
     color:white;
     font-family: 'PT Mono', monospace;
     padding:5px;
@@ -40,15 +40,9 @@ button {
 }
 
 .add:hover {
-    background-color:white;
-    color:black;
-    border:black solid 1px;
+    background-color:#ca7459;
+    color:white;
     rotate:180;
-}
-
-.navbutton {
-    font-size:.25em;
-    border: 1px solid white;
 }
 
 .label1 {
@@ -68,8 +62,8 @@ button {
 }
 
 .navbutton:hover{
-    background-color:white;
-    color:black;
+    background-color:rgb(81, 153, 137);
+    color:white;
     font-weight:bold;
     border:none;
 }

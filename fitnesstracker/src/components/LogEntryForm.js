@@ -7,15 +7,23 @@ import axios from 'axios';
 
 
 
+
 class LogEntryForm extends Component {
 
-    state = {
-        exercise: "",
-        reps: "",
-        sets: "",
-        duration: "",
-        notes: ""
+
+    constructor() {
+        super();
+        this.state = {
+            exercise: "",
+            reps: "",
+            sets: "",
+            duration: "",
+            notes: ""
+        }
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+
 
     handleChange = event => {
         this.setState({
@@ -28,8 +36,7 @@ class LogEntryForm extends Component {
     }
 
     handleSubmit() {
-        axios.post('http://localhost:1337/api/excercise', {
-        })
+        axios.post('/api/excercise', this.state)
             .then(res => console.log(res))
             .catch(err => console.log(err));
     }
@@ -52,7 +59,7 @@ render() {
                     <label htmlFor="notes" className="label5">General Notes: </label>
                     <input type="text" name="notes" />
                 </form>
-                <button className="add text-center" type="submit">Submit</button>
+                <button onClick={this.handleSubmit} className="add text-center" type="submit">Submit</button>
             </div>
         </div>
     )

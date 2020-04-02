@@ -22,7 +22,7 @@ class LogEntryGen extends Component {
     }
     
     componentDidMount = () => {
-        axios.get('http://localhost:1337/api/exercise')
+        axios.get('/api/exercise')
         .then( res => {
             const results = res.data
             this.setState({results})

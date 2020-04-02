@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
   }
 });
 
-router.post('/', async (req, res, next) => {
+router.post('/api/exercise', async (req, res, next) => {
     try {
     const logEntry = new LogEntry({
         exercise: req.body.exercise,
